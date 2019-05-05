@@ -1,0 +1,31 @@
+{
+  "name": "shooter-io-docs",
+  "version": "1.0.0",
+  "description": "This is document for Shooter IO project (https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN)",
+  "main": "import.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "medium-to-markdown-enhanced": "0.0.4",
+    "request": "^2.88.0",
+    "turndown": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insthync/shooter-io-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insthync/shooter-io-docs/issues"
+  },
+  "homepage": "https://github.com/insthync/shooter-io-docs#readme"
+}
