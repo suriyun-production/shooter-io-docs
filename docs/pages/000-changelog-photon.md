@@ -1,5 +1,9 @@
 # Changelog (PUN2)
 
+1.20b (2020-02-12)
+- Reduce shoot packet size
+- Fix null exceptions occuring after enter or exit `HideArea`
+
 1.20
 - Fix invalid weapon model's damage launch transform position.
 - Add muzzle effect prefab config to damage entity.
