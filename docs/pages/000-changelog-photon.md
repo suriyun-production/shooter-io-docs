@@ -1,5 +1,8 @@
 # Changelog (PUN2)
 
+1.20c (2020-02-16)
+- Fix invalid adjusting BOTs amount when players enter or exit the game
+
 1.20b (2020-02-12)
 - Reduce shoot packet size
 - Fix null exceptions occuring after enter or exit `HideArea`
