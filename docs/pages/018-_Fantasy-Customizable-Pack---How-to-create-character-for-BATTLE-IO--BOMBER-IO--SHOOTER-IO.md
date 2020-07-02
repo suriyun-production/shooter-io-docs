@@ -1,8 +1,8 @@
-* * *
+# How to create character with Fantasy Customizable Pack
 
 ![](../images/1ZIOHU85BUdNl5k-CS_Atug.png)
 
-This is the guide for Fantasy Customizable Pack which selling at Unity Asset Store ([https://www.assetstore.unity3d.com/en/#!/content/68910?aid=1100lGeN](https://www.assetstore.unity3d.com/en/#!/content/68910?aid=1100lGeN))
+This is the guide for [Fantasy Customizable Pack](https://assetstore.unity.com/packages/slug/68910?aid=1100lGeN) which selling at Unity Asset Store
 
 *   Open **Customize** scene and press play
 

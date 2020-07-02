@@ -1,4 +1,4 @@
-* * *
+# Playfab integration
 
 Now there's a Playfab integration project which you can found it [here](https://github.com/insthync/dot-io-playfab-client)
 

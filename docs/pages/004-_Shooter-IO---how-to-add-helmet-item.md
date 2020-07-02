@@ -1,8 +1,4 @@
-* * *
-
-![](../images/1y9GWNOJQ4UhK7WweZE1lpw.png)
-
-This is the guide for Shooter IO game template which selling at Unity Asset Store ([https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN))
+# How to add helmet item
 
 Things you have to do to add new helmet item for this template are:
 
@@ -12,7 +8,11 @@ Things you have to do to add new helmet item for this template are:
 
 Okay, Let’s start
 
+## Prepare Helmet Model
+
 First, prepare helmet model. You may create empty scene then drag your helmet model into the scene to manage it, Then make it as prefab
+
+## Create and set Head Data
 
 Next, you have to create **HeadData**, right click on anywhere in Project tab choose **Create -> ScriptableObject**
 
@@ -26,9 +26,7 @@ Then in head data set **Model Object** to helmet model prefab that you have crea
 
 ![](../images/0Ml1ehL4Of_Qq1nLJ.png)
 
-Then open **Home** scene add head data to **GameInstance**
-
-![](../images/0tzU-zVeQzWReG6LI.png)
+## Add created Head Data to Game Instance
 
 Then open **Home** scene add head data to **GameInstance**
 

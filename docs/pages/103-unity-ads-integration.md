@@ -1,4 +1,4 @@
-* * *
+# Unity Ads integration
 
 To enable Unity Ads you have to import the Monetization package ([Here](https://assetstore.unity.com/packages/add-ons/services/unity-monetization-3-3-0-66123)) 
 

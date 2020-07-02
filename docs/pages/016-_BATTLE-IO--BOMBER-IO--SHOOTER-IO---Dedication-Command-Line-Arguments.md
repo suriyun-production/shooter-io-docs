@@ -1,10 +1,4 @@
-* * *
-
-This is the guide for game template which selling at Unity Asset Store there are
-
-*   Battle IO ([https://www.assetstore.unity3d.com/#!/content/101113?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/101113?aid=1100lGeN))
-*   Bomber IO ([https://www.assetstore.unity3d.com/#!/content/102515?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/102515?aid=1100lGeN))
-*   Shooter IO ([https://www.assetstore.unity3d.com/en/#!/content/104584?aid=1100lGeN](https://www.assetstore.unity3d.com/en/#!/content/104584?aid=1100lGeN))
+# Dedication server commands
 
 Command Line Arguments list for dedication there are:
 

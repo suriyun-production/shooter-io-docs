@@ -1,4 +1,4 @@
-* * *
+# How to add new currency
 
 You can add new currency in **Home** scene, there are **GameInstance** select it then find component named **Monetization Manager** at Inspector you can add currency at **Currencies** list, for this example I will add **GEM**
 

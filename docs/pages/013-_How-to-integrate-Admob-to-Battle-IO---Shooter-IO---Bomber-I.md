@@ -1,4 +1,4 @@
-* * *
+# Admob integration
 
 I have made Admob integration (can download it here [https://github.com/insthync/unity-simple-monetization-admob/releases](https://github.com/insthync/unity-simple-monetization-admob/releases))
 

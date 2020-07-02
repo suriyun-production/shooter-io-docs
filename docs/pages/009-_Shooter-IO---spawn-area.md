@@ -1,8 +1,4 @@
-* * *
-
-![](../images/1y9GWNOJQ4UhK7WweZE1lpw.png)
-
-This is the guide for Shooter IO game template which selling at Unity Asset Store ([https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN))
+# Spawn area
 
 The **Spawn Area** is used to specific area to spawning character / power up objects in game play scene, spawn position will be random by its position +/- **Area Size X** / **Area Size Y**
 

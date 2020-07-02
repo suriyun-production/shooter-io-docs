@@ -1,8 +1,4 @@
-* * *
-
-![](../images/1y9GWNOJQ4UhK7WweZE1lpw.png)
-
-This is the guide for Shooter IO game template which selling at Unity Asset Store ([https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN))
+# How to add character
 
 Things you have to do to add new character for this template are:
 
@@ -11,6 +7,8 @@ Things you have to do to add new character for this template are:
 *   Add created **Character Data** to **Game Instance**
 
 Okay, Let’s start
+
+## Prepare Character Model
 
 First, prepare character model. You may create empty scene then drag your character model into the scene to manage it, In your character model add **CharacterModel** component
 
@@ -21,6 +19,8 @@ Then explore into character model children drag game object which you want to in
 ![](../images/0_9s1m20R85lAdTYp.png)
 
 Then make it as a prefab.
+
+## Create and set Character Data
 
 Next, you have to create **CharacterData**, right click on anywhere in Project tab choose **Create -> ScriptableObject**
 
@@ -36,13 +36,10 @@ Then in character data set **Character Model** to character model prefab that yo
 
 ![](../images/0Mz81nBGddeP-IjhW.png)
 
+## Add created Character Data to Game Instance
+
 Then open **Home** scene add character data to **GameInstance**
 
 ![](../images/0KdyG58ww3Olc97lv.png)
 
 ![](../images/01A-gPvvmgfk8-KgE.png)
-
-With Fantasy Customizable Pack, you can create new character easily try it!!
-
-[**Fantasy Customizable Pack by SURIYUN**  
-_Fantasy Customizable Pack Create many unique characters with over 950+ hand-painted pieces. Custom user interface for…_www.assetstore.unity3d.com](https://www.assetstore.unity3d.com/en/#!/content/68910?aid=1100lGeN "https://www.assetstore.unity3d.com/en/#!/content/68910?aid=1100lGeN")[](https://www.assetstore.unity3d.com/en/#!/content/68910?aid=1100lGeN)

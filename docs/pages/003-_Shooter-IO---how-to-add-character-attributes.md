@@ -1,8 +1,4 @@
-* * *
-
-![](../images/1y9GWNOJQ4UhK7WweZE1lpw.png)
-
-This is the guide for Shooter IO game template which selling at Unity Asset Store ([https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN))
+# How to add character attributes
 
 An character attributes, it will be random to let player to choose which attributes they want to add when level up
 

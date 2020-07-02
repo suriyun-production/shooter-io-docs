@@ -1,4 +1,4 @@
-* * *
+# Update from PUN1 to PUN2
 
 Before you update, you should backup AppId (You still can see it in dashbord).
 Then you have to...

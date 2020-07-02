@@ -1,8 +1,4 @@
-* * *
-
-![](../images/1y9GWNOJQ4UhK7WweZE1lpw.png)
-
-This is the guide for Shooter IO game template which selling at Unity Asset Store ([https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN))
+# How to add weapon item
 
 Things you have to do to add new weapon item for this template are:
 
@@ -12,6 +8,8 @@ Things you have to do to add new weapon item for this template are:
 *   Add created **Weapon Data** to **Game Instance**
 
 Okay, Let’s start
+
+## Prepare Weapon Model
 
 First, prepare right hand / left hand weapon and/or shield models. You may create empty scene then drag your weapon model into the scene to manage them, Then make them as prefab
 
@@ -65,6 +63,8 @@ Another​ ​parameter​ ​there​ ​are
 *   **Clip​ ​Out​ ​Fx**​​ ​is​ ​audio​ ​clip​ ​which​ ​will​ ​plays​ ​before​ ​start reload
 *   **Clip​ ​In​ ​Fx**​​ ​is​ ​audio​ ​clip​ ​which​ ​will​ ​plays​ ​after​ ​reloaded
 *   **Empty​ ​Fx**​​ ​is​ ​audio​ ​clip​ ​which​ ​will​ ​plays​ ​when​ ​attacking with​ ​empty​ ​ammo
+
+## Add created Weapon Data to Game Instance
 
 Then open **Home** scene add weapon data to **GameInstance**
 

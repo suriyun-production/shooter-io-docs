@@ -1,26 +1,42 @@
-* * *
-
-![](../images/1y9GWNOJQ4UhK7WweZE1lpw.png)
-
-This is the guide for Shooter IO game template which selling at Unity Asset Store ([https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN](https://www.assetstore.unity3d.com/#!/content/104584?aid=1100lGeN))
+# Getting Started with the Demo
 
 Before download and import it to your project you should setup project to support **Unity Ads** and **Unity Purchasing** to avoid an errors
 
-You can enable **Unity Ads** as following steps via link [https://unity3d.com/services/ads/quick-start-guide](https://unity3d.com/services/ads/quick-start-guide)
+## Enable Unity Ads
 
-If you enabled **Unity Ads** but an errors still occurs, you can try import **Unity Ads** package from **Unity Asset Store**([https://www.assetstore.unity3d.com/en/#!/content/66123?aid=1100lGeN](https://www.assetstore.unity3d.com/en/#!/content/66123?aid=1100lGeN))
+* You can open `Services` tab from menu **Windows -> General -> Services**
 
-And also enable **Unity Purchasing** as following steps via link [https://docs.unity3d.com/Manual/UnityIAPSettingUp.html](https://docs.unity3d.com/Manual/UnityIAPSettingUp.html)
+![](../images/001/0.png)
 
-If you enabled **Unity Purchasing** but an errors still occurs after imports Battle IO package you might have to import these two packages
+* Then select ADS
 
-![](../images/0H6BZofmpB5gW0cDR.png)
+![](../images/001/1.png)
 
-Import these packages
+* And turn on, you also should turn on **Enable built-in Ads extension**. If not you have to import [Monetization Package](https://assetstore.unity.com/packages/add-ons/services/unity-monetization-66123?aid=1100lGeN)
 
-![](../images/1dVRmCLLsNw46dY87UZPM7Q.png)
+![](../images/001/2.png)
 
-When all packages already imported, it will be contains things like this
+## Enable Unity Purchasing
+
+* You can open `Services` tab from menu **Windows -> General -> Services**
+
+![](../images/001/0.png)
+
+* Then select In-App Purchasing
+
+![](../images/001/3.png)
+
+* And turn on, then import the Purchasing package
+
+![](../images/001/4.png)
+
+## PUN2 version
+
+If you use PUN2 version, you have to setup PUN2 by import [PUN2 Package](https://assetstore.unity.com/packages/tools/network/photon-unity-networking-classic-free-1786?aid=1100lGeN)
+
+Then create your project via [Photon's Dashboard](https://www.photonengine.com/en-us/Photon) and [setup AppId](https://doc.photonengine.com/en-us/pun/current/getting-started/initial-setup)
+
+## Import the package
 
 After import packages done, then we’re going to test the Demo, click menu **File -> Build Settings**
 

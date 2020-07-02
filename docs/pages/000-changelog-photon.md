@@ -1,5 +1,9 @@
 # Changelog (PUN2)
 
+1.23 (2020-07-02)
+- Change to move characters by changes transform's position, rigibody will be used to applies force.
+- Add `ExplosionForce` and `ExplosionForceRadius` settings to `Damage Entity` it will applies to force character when damage entity hit or explode.
+
 1.22 (2020-05-08)
 - Fix team death match kill count and score don't reset when start new match
 - Fix black fade not fade out when start game sometime
