@@ -5,12 +5,13 @@ Command Line Arguments list for dedication there are:
 *   \-gameServerStart : Start dedicate server
 *   \-gameServerPort : Change server port
 *   \-gameMaxConnections : Max server connections
+*   \-gameOnlineScene : Scene name which players will join for the battle
 *   \-gameRule : Name of game rule, for the demo there are IONetworkGameRule, DeathMatchNetworkGameRule
 *   \-gameBotCount : Amount of bots
 
 Example of command line usage (For Linux/Mac)
 
-> ./Build.x86\_64 -gameServerStart -gameServerPort 7700 -gameMaxConnections 50 -gameRule IONetworkGameRule -gameBotCount 10
+> ./Build.x86\_64 -gameServerStart -gameServerPort 7700 -gameMaxConnections 50 -gameOnlineScene "Battle" -gameRule "IONetworkGameRule" -gameBotCount 10
 
 For Windows you can set arguments in shortcut’s properties
 
@@ -20,6 +21,7 @@ So by this example, server configurations will be set as:
 
 *   Server Port = 7700
 *   Max Connections = 50
+*   Online Scene = Battle
 *   Game Rule = IONetworkGameRule
 *   Bot Count = 10
 
