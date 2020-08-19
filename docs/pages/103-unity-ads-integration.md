@@ -1,10 +1,16 @@
 # Unity Ads integration
 
-To enable Unity Ads you have to import the Monetization package ([Here](https://assetstore.unity.com/packages/add-ons/services/unity-monetization-3-3-0-66123)) 
+To enable Unity Ads you have to import the **Advertisement** package from package manager (Menu: Windows -> Package Manager)
 
-Then in Services, (Find from menu: Window → General → Services) then turn on ADS and `Enable built-in Ads extension`
+![](../images/ads-00.png)
+
+Then in Services, (Find from menu: Window -> General -> Services) then turn on ADS and `Enable built-in Ads extension`
 
 ![](../images/ads-01.png)
+
+Then add `UNITY_ADS` to **Scripting Define Symbols**
+
+![](../images/ads-05.png)
 
 Then in the `Home` scene, there is `GameInstance` game object in that game object you will see attached `Monetization Manager` component you have to set its `Android Game Id` and `iOS Game Id` 
 
