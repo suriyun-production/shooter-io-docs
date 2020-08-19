@@ -12,9 +12,11 @@ Before download and import it to your project you should setup project to suppor
 
 ![](../images/001/1.png)
 
-* And turn on, you also should turn on **Enable built-in Ads extension**. If not you have to import [Monetization Package](https://assetstore.unity.com/packages/add-ons/services/unity-monetization-66123?aid=1100lGeN)
+* And turn on, turn on **Enable built-in Ads extension**. and import the **Advertisement** package from package manager (Menu: Windows -> Package Manager)
 
 ![](../images/001/2.png)
+
+![](../images/ads-00.png)
 
 ## Enable Unity Purchasing
 
@@ -29,6 +31,20 @@ Before download and import it to your project you should setup project to suppor
 * And turn on, then import the Purchasing package
 
 ![](../images/001/4.png)
+
+## Add UNITY_PURCHASING and UNITY_ADS to scripting define symbols
+
+* Open project settings by menu: Edit -> Project Settings
+
+* Go to `Player` section
+
+* Find `Scripting Define Symbols` field in `Other Settings` section
+
+* Put `UNITY_PURCHASING` if you're going to try IAP and `UNITY_ADS` if you're going to try ADS
+
+* Separating each symbol by `;`. so you will append `UNITY_PURCHASING;UNITY_ADS` to `Scripting Define Symbols` field
+
+![](../images/ads-05.png)
 
 ## PUN2 version
 
