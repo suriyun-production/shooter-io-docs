@@ -1,5 +1,15 @@
 # Changelog (PUN2)
 
+1.24 (2020-11-07)
+- Change RPC function usages from `photonView.RPC("function", player, param1, param2, param3)` to `photonView.TargetRPC(function, player, param1, param2, param3)`.
+- Change RPC function usages from `photonView.RPC("function", RpcTarget.All, param1, param2, param3)` to `photonView.AllRPC(function, param1, param2, param3)`.
+- Change RPC function usages from `photonView.RPC("function", RpcTarget.Others, param1, param2, param3)` to `photonView.OthersRPC(function, player, param1, param2, param3)`.
+- Change RPC function usages from `photonView.RPC("function", RpcTarget.MasterClient, param1, param2, param3)` to `photonView.MasterRPC(function, player, param1, param2, param3)`.
+- Fix teams are not spawning in designated team spawn areas.
+- Fix teams are not spawning the correct amount for each team. If its 6 players, sometimes one team has 4, the other 2.
+- Fix bug when the master leaves then rejoins a room, more bots are spawned than the limit.
+- Improve how to instantiate damage entity, now it will simulate immediately while playing action animation, not have to wait for instantiate networking messages.
+
 1.23 (2020-07-02)
 - Change to move characters by changes transform's position, rigibody will be used to applies force.
 - Add `ExplosionForce` and `ExplosionForceRadius` settings to `Damage Entity` it will applies to force character when damage entity hit or explode.
