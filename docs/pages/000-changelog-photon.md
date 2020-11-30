@@ -1,5 +1,9 @@
 # Changelog (PUN2)
 
+1.24b (2020-11-30)
+- Rework on team system, it won't use Photon's team utility anymore.
+- Fix wrong bots adjusting amount when player join or leave rooms.
+
 1.24 (2020-11-07)
 - Change RPC function usages from `photonView.RPC("function", player, param1, param2, param3)` to `photonView.TargetRPC(function, player, param1, param2, param3)`.
 - Change RPC function usages from `photonView.RPC("function", RpcTarget.All, param1, param2, param3)` to `photonView.AllRPC(function, param1, param2, param3)`.
