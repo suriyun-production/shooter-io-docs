@@ -1,5 +1,10 @@
 # Changelog (PUN2)
 
+1.24c (2020-12-08)
+- Remove automatic leave room from gameplay rule.
+- Hide room from lobby list when match end.
+- Fix wrong player's ranking when match end.
+
 1.24b (2020-11-30)
 - Rework on team system, it won't use Photon's team utility anymore.
 - Fix wrong bots adjusting amount when player join or leave rooms.
