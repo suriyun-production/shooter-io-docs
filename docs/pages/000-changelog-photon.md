@@ -1,5 +1,12 @@
 # Changelog (PUN2)
 
+## 1.25 (2021-03-29)
+- Improve character movement, now it has to attached `CharacterMovement` component to `CharacterEntity` when you attaches `CharacterMovement` component, you have to set `CharacterController` settings to cover your character and you have to set attached colliders to be trigger collider.
+- Add third person view mode, you have to change `FollowCamera` component which usaully attached to main camera to `FollowCameraControls` component.
+- Add `ViewMode` settings to `CharacterEntity`, you can set it to `TopDown` and `ThirdPerson`.
+- Add `TopDownViewModeSettings` it will be applied to `FollowCameraControls` and main camera when `ViewMode` is `TopDown`.
+- Add `ThirdPersionViewModeSettings` it will be applied to `FollowCameraControls` and main camera when `ViewMode` is `ThirdPerson`.
+
 ## 1.24c (2020-12-08)
 - Remove automatic leave room from gameplay rule.
 - Hide room from lobby list when match end.
