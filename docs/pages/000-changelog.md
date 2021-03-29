@@ -1,5 +1,8 @@
 # Changelog (LiteNetLibManager)
 
+## 1.31b (2021-03-29)
+- Fix attack joystick missing events.
+
 ## 1.31 (2021-03-29)
 - Improve character movement, now it has to attached `CharacterMovement` component to `CharacterEntity` when you attaches `CharacterMovement` component, you have to set `CharacterController` settings to cover your character and you have to set attached colliders to be trigger collider.
 - Add third person view mode, you have to change `FollowCamera` component which usaully attached to main camera to `FollowCameraControls` component.
