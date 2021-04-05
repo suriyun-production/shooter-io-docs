@@ -1,5 +1,10 @@
 # Changelog (LiteNetLibManager)
 
+## 1.31c (2021-04-05)
+- Fix null data break update loop.
+- Fix unsynced aim position.
+- Don't update aim position for non-owning characters.
+
 ## 1.31b (2021-03-29)
 - Fix attack joystick missing events.
 
