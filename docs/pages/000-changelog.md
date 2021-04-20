@@ -1,5 +1,8 @@
 # Changelog (LiteNetLibManager)
 
+## 1.31d (2021-04-20)
+- Update follow camera controls, add `Aim Assist Obstacle Layer Mask`, set layers to block aim assist (such as wall's layer).
+
 ## 1.31c (2021-04-05)
 - Fix null data break update loop.
 - Fix unsynced aim position.
