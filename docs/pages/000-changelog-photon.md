@@ -1,5 +1,9 @@
 # Changelog (PUN2)
 
+## 1.26 (2021-08-07)
+- Reduce packet size.
+- Add blocking action.
+
 ## 1.25d (2021-04-20)
 - Update follow camera controls, add `Aim Assist Obstacle Layer Mask`, set layers to block aim assist (such as wall's layer).
 

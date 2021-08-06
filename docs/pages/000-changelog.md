@@ -1,5 +1,9 @@
 # Changelog (LiteNetLibManager)
 
+## 1.32 (2021-08-07)
+- Reduce packet size.
+- Add blocking action.
+
 ## 1.31d (2021-04-20)
 - Update follow camera controls, add `Aim Assist Obstacle Layer Mask`, set layers to block aim assist (such as wall's layer).
 
