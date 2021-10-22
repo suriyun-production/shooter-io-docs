@@ -1,5 +1,9 @@
 # Changelog (PUN2)
 
+## 1.27 (2021-10-22)
+- Fix character cannot being pushed by forces.
+- Fix Playfab data exporter not export bundles.
+
 ## 1.26 (2021-08-07)
 - Reduce packet size.
 - Add blocking action.

@@ -1,5 +1,9 @@
 # Changelog (LiteNetLibManager)
 
+## 1.33 (2021-10-22)
+- Fix character cannot being pushed by forces.
+- Fix Playfab data exporter not export bundles.
+
 ## 1.32 (2021-08-07)
 - Reduce packet size.
 - Add blocking action.
