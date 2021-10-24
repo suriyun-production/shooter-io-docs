@@ -14,7 +14,7 @@ Before download and import it to your project you should setup project to suppor
 
 * And turn on, turn on **Enable built-in Ads extension**. and import the **Advertisement** package from package manager (Menu: Windows -> Package Manager)
 
-![](../images/001/2.png)
+![](../images/ads-01.png)
 
 ![](../images/ads-00.png)
 
@@ -28,9 +28,11 @@ Before download and import it to your project you should setup project to suppor
 
 ![](../images/001/3.png)
 
-* And turn on, then import the Purchasing package
+* And turn on. and import the **In App Purchasing** package from package manager (Menu: Windows -> Package Manager)
 
-![](../images/001/4.png)
+![](../images/iap-01.png)
+
+![](../images/iap-00.png)
 
 ## Add UNITY_PURCHASING and UNITY_ADS to scripting define symbols
 
