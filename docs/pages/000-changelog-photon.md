@@ -1,5 +1,9 @@
 # Changelog (PUN2)
 
+## 1.27b (2022-02-26)
+- Update to Unity version 2020.3.26f1.
+- Fix score and kills not being counted properly.
+
 ## 1.27 (2021-10-22)
 - Fix character cannot being pushed by forces.
 - Fix Playfab data exporter not export bundles.
