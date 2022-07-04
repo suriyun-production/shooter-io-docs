@@ -1,4 +1,11 @@
 # Changelog (PUN2)
+## 1.28 (2022-07-04)
+- Update Purchasing integration.
+- Update Facebook SDK integration.
+- Update Google Play Games Service integration.
+- Update PlayFab SDK integration.
+- Setup events to update purchased items (You won't have to set it by yourself anymore).
+- Change demo's currency ID from `GOLD` to `GO` to make it compatible with PlayFab.
 
 ## 1.27b (2022-02-26)
 - Update to Unity version 2020.3.26f1.
