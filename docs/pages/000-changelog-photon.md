@@ -1,4 +1,6 @@
 # Changelog (PUN2)
+**I decided to make all important parts to be an open source projects, so you won't have to buy this one, you can find source codes [here](https://github.com/insthync?tab=repositories&q=io-core&type=&language=&sort=)**
+
 ## 1.28 (2022-07-04)
 - Update Purchasing integration.
 - Update Facebook SDK integration.
